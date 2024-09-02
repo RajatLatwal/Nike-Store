@@ -5,7 +5,8 @@ import './index.css'
 import { Provider } from "react-redux";
 
 import { Toaster } from 'react-hot-toast';
-import Store from './app/store';
+import Store from './app/Store.js';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
